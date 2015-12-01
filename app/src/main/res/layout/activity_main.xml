@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/share_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/share_face"
+        android:layout_centerInParent="true"
+        android:hint="Enter your text share"
+        android:layout_marginBottom="40dp"
+        />
+
+    <Button
+        android:id="@+id/share_face"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#0000ff"
+        android:padding="5dp"
+        android:text="SHARE FACEBOOK"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/share_twitter"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/share_face"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="#A7A8A8"
+        android:padding="5dp"
+        android:text="SHARE TWITTER"
+        android:textColor="#000"/>
+</RelativeLayout>
